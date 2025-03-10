@@ -1,0 +1,111 @@
+
+body{
+    background-color: aliceblue;
+    
+}
+
+
+.hero{
+    margin-bottom: 0;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.landing{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.navigation{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#menu{
+    
+    border-top: 50px;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D503A;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.info>h1{
+    color: aliceblue;
+}
+
+.about-me {
+    height: 100vh;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.pic-1{
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+   
+
+}
+
+.my-pic{
+    display: flex;
+    justify-content: center;
+     
+
+}
+
+h1{
+    font-family: "Signika", serif;
+
+}
+.description>p{
+    color: #1D503A;
+    text-align: center;
+    font-family: "Signika", serif;
+}
+
+.skills{
+    height: 100vh;
+    justify-content: center;
+}
+
+.skills h2{
+    color: #1D503A;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+.footer{
+    
+    width: 100%;
+}
+
+ul{
+    color: #1D503A;
+}
